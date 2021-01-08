@@ -1,0 +1,76 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - karma-browserstack-launcher > browserstack > https-proxy-agent:
+        patched: '2021-01-08T06:39:21.844Z'
+    - karma-browserstack-launcher > browserstacktunnel-wrapper > https-proxy-agent:
+        patched: '2021-01-08T06:39:21.844Z'
+  SNYK-JS-LODASH-567746:
+    - grunt-contrib-less > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - karma > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint-order > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-clean > async > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-connect > async > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-less > async > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-html > async > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-jshint > jshint > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - karma > combine-lists > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-reporter > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > table > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint-order > postcss-sorting > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-connect > portscanner > async > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-jsx > @babel/core > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/traverse > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-pug > pug > pug-code-gen > constantinople > babel-types > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-pug > pug > pug-filters > constantinople > babel-types > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-contrib-pug > pug > pug-code-gen > pug-attrs > constantinople > babel-types > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/generator > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - stylelint > postcss-jsx > @babel/core > @babel/helpers > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+  'npm:lodash:20180130':
+    - grunt-jscs > jscs > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-jscs > jscs > xmlbuilder > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
+    - grunt-jscs > jscs > jscs-jsdoc > jsdoctypeparser > lodash:
+        patched: '2021-01-08T06:39:21.844Z'
