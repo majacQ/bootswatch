@@ -15,3 +15,9 @@ patch:
         patched: '2021-01-25T15:39:50.752Z'
     - grunt-contrib-connect > connect > serve-index > accepts > negotiator:
         patched: '2021-01-25T15:39:50.752Z'
+  'npm:debug:20170905':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug:
+        patched: '2021-01-29T16:07:13.344Z'
+  'npm:ms:20170412':
+    - grunt-contrib-watch > tiny-lr > body-parser > debug > ms:
+        patched: '2021-01-29T16:07:13.344Z'
