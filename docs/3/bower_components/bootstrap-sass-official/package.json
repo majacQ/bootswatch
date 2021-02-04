@@ -33,12 +33,20 @@
     "url": "https://github.com/twbs/bootstrap-sass/issues"
   },
   "devDependencies": {
-    "node-sass": "^4.9.3",
-    "mincer": "~1.4.0",
+    "node-sass": "^4.13.1",
+    "mincer": "~2.0.1",
     "ejs": "~2.6.1"
   },
   "eyeglass": {
     "exports": "eyeglass-exports.js",
     "needs": "^0.7.1"
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.437.3"
   }
 }
