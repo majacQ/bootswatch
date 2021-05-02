@@ -43,8 +43,13 @@
     "grunt-contrib-connect": "^2.1.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
+  <<<<<<< snyk-upgrade-7c1e603e47c6051c7f6ab2293ca1b1ce
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-less": "^2.0.0",
+  =======
     "grunt-contrib-jshint": "^2.0.0",
     "grunt-contrib-less": "^2.1.0",
+  >>>>>>> master
     "grunt-contrib-pug": "^2.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
