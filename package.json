@@ -24,22 +24,22 @@
   "dependencies": {},
   "devDependencies": {
     "@lodder/grunt-postcss": "^3.0.1",
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "^10.3.1",
     "bootstrap": "^4.6.0",
     "font-awesome": "^4.7.0",
-    "grunt": "^1.4.0",
+    "grunt": "^1.4.1",
     "grunt-contrib-clean": "^2.0.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-connect": "^3.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-watch": "^1.1.0",
-    "grunt-html": "^14.4.0",
+    "grunt-html": "^14.4.2",
     "grunt-sass": "^3.1.0",
     "jquery": "^3.6.0",
     "node-sass": "^4.14.1",
-    "postcss": "^8.2.13",
-    "stylelint": "^13.13.0",
-    "stylelint-config-twbs-bootstrap": "^2.1.0"
+    "postcss": "^8.3.6",
+    "stylelint": "^13.13.1",
+    "stylelint-config-twbs-bootstrap": "^2.2.3"
   }
 }
